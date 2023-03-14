@@ -1,0 +1,17 @@
+{
+  "name": "cuttle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "cuttlebelle",
+    "watch": "cuttlebelle -w",
+    "start": "serve ./site"
+  },
+  "author": "",
+  "license": "ISC",
+  	"dependencies": {
+		  "cuttlebelle": "*",
+      "serve": "*"
+	  }
+}
