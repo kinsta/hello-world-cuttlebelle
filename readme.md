@@ -13,25 +13,21 @@ Kinsta is a developer-centric cloud host / PaaS. We’re striving to make it eas
 
 ## Dependency Management
 
-During the deployment process Kinsta will automatically install dependencies defined in your `package.json` file.
+Kinsta automatically installs dependencies defined in your `package.json` file during the deployment process.
 
 ## Web Server Setup
 
 ### Port
 
-Kinsta automatically sets the `PORT` environment variable. You should **not** define it yourself and you should **not** hard-code it into the application. The `serve` packageutilizes the port set by Kinsta automatically.
+Kinsta automatically sets the `PORT` environment variable. You should **not** define it yourself and you should **not** hard-code it into the application. The `serve` package utilizes the port set by Kinsta automatically.
 
 ### Start Command
 
-When deploying an application Kinsta will automatically create a web process with `npm start` as the entry point. Make sure to use this command to run your server.
+When deploying an application, Kinsta automatically creates a web process with `npm start` as the entry point. Make sure to use this command to run your server.
 
 ## Deployment Lifecycle
 
 Whenever a deployment is initiated (through creating an application or re-deploying due to an incoming commit) the `npm build` command is run, followed by the `npm start` command.
 
 ## What is Cuttlebelle
-**Cuttlebelle** is a static site generator that uses react for layouts, let’s you use one layout per page-partial and cleanly separates content from code.
-
-You can extend **Cuttlebelle** with react components that can make use of the power of the npm ecosystem.
-
-More info on the [Cuttlebelle](https://cuttlebelle.com/) website.
+Cuttlebelle is a static site builder that breaks down each page into content blocks that you can later assemble to create various page layouts without the need to understand or use complex code. More information is available on the [Cuttlebelle](https://cuttlebelle.com/) website.
