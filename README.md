@@ -1,5 +1,3 @@
-![cuttlebelle](https://user-images.githubusercontent.com/2342458/224972622-97e7d667-555f-4438-9344-5a070255c6ef.png)
-
 # Kinsta - Hello World - Static Site With Cuttlebelle 🐙
 
 An example of how to deploy a static site built with Cuttlebelle on Kinsta Hosting.
